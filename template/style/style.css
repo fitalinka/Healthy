@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+@import url('https://fonts.googleapis.com/css?family=Marck+Script|Permanent+Marker');
+p{
+  margin: 0;
+}
+body{
+  height: 100%;
+  background-image: url(../img/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header{
+  height: 20%;
+  color: white;
+}
+h1{
+  font-weight: bold;
+  font-size: 6em;
+    font-family: 'Marck Script', cursive;
+}
+aside{
+  min-height: 600px
+}
+.wrap{
+  background-color: #FFFFFF;
+  min-height: 600px;
+  color: black;
+  opacity: 0.8;
+}
+.clear{
+  clear: both;
+}
+.menu{
+  background-color: #68B04D;
+  border-radius: 50px;
+  color: white;
+  margin: 0 5px;
+  width: 84%;
+  margin-left: 8%;
+}
+a{
+  color: white;
+  font-family: 'Marck Script', cursive;
+  font-size: 2em;
+}
+.navbar{
+  margin: 0;
+}
+.nav{
+  text-align: center;
+}
+.nav>li {
+  display: inline-block;
+}
+.functional{
+  list-style: none;
+  font-size: 2.5em;
+}
+.functional>li>a:hover{
+  color:#68B04D;
+}
+.fa-user-o{
+  font-size: 9em;
+  color: #68B04D;
+}
+.person{
+  color: #68B04D;
+}
+.info{
+  margin: 1.04%;
+  /*float:left;*/
+}
+.btn-success>input{
+  color: #68B04D;
+}
+.personal{
+  /*float:left;*/
+/*text-align: justify;*/
+}
+
+.person_table{
+  /*float: left;*/
+  margin: 1%;
+  width: 70%;
+}
+
+.person_table tr td{
+  padding: 1%;
+}
+
+.person_table tr td>input[type="text"]{
+  padding: 2%;
+  width:100%;
+}
+
+.person_table tr td>input[type="submit"]{
+  padding: 1% 3%;
+}
+
+.pol{
+  float: left;
+  text-align: center;
+  margin: 1%;
+  font-size: 2em;
+}
+
+.table_product{
+  width: 100%;
+}
+.product{
+  margin-top: 3%;
+}
+.form-search>input[type="text"]{
+  margin-top: 1%;
+  width: 60%;
+  height: 7%;
+}

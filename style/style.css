@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+@import url('https://fonts.googleapis.com/css?family=Marck+Script|Permanent+Marker');
+body{
+  height: 100%;
+  background-image: url(../img/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header{
+
+  height: 20%;
+
+  color: white;
+}
+h1{
+
+  font-weight: bold;
+  font-size: 6em;
+    font-family: 'Marck Script', cursive;
+}
+aside{
+  min-height: 600px
+}
+.wrap{
+  background-color: #FFFFFF;
+  min-height: 600px;
+  color: black;
+  opacity: 0.8;
+}
+.clear{
+  clear: both;
+}
+.menu{
+  background-color: #68B04D;
+  border-radius: 50px;
+  color: white;
+  margin: 0 5px;
+  width: 84%;
+  margin-left: 8%;
+
+  /*font-family: 'Marck Script', cursive;*/
+  font-size: 1.4em;
+}
+a{
+  color: white;
+  font-family: 'Marck Script', cursive;
+  font-size: 2em;
+}
+.navbar{
+  margin: 0;
+}
+.nav{
+  text-align: center;
+}
+.nav > li {
+  display: inline-block;
+}
+.functional{
+  list-style: none;
+float:right;
+font-size: 2.5em;
+}
+.functional>li>a :hover{
+  color:#68B04D;
+}
